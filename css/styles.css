@@ -1,0 +1,194 @@
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+h2 {
+  font-family: "Montserrat";
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+h3 {
+  font-size: 1.5rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+}
+
+p {
+  color: #8f8f8f;
+  margin: auto 3%;
+}
+
+.coloredSection {
+  background-color: #ff4c68;
+  color: #FFF;
+}
+
+.uncoloredSection {
+  background-color: #fff;
+}
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 2.5rem;
+}
+
+.nav-item {
+  padding: 0 20px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.navbar {
+  padding: 0 0 4.5rem 0;
+}
+
+#title {
+  background-color: #ff4c68;
+  color: #fff;
+  text-align: left;
+}
+
+.down-btn {
+  margin: 5% 3% 0 0;
+}
+
+.title-img {
+  width: 60%;
+  transform: rotate(33deg);
+  position: absolute;
+  right: 33%;
+  top: -2.5rem;
+}
+
+.feature-box {
+  text-align: center;
+  margin-top: 1.25rem;
+}
+
+.feature-img {
+  color: #EF8172;
+  margin-bottom: 1rem;
+}
+
+.feature-img:hover {
+  color: #ff4c68;
+}
+
+#features {
+  padding: 7% 15%;
+  position: relative;
+}
+
+#testimonials {
+  text-align: center;
+  background-color: #EF8172;
+  color: #FFF;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+#press {
+  background-color: #EF8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.testimonials-Img {
+  margin: 20px;
+  width: 10%;
+  border-radius: 100%
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-col {
+  margin: 3% auto;
+}
+
+#align-pricing {
+  padding-bottom: 2%;
+}
+
+.height-pricing {
+  margin: 5% auto;
+}
+
+#call-action {
+  padding: 7% 15%;
+  text-align: center;
+}
+
+.call-action-header {
+  font-size: 3rem;
+}
+
+#copyright-footer {
+  padding: 5% 15%;
+  text-align: center;
+}
+
+.copyrights-icon {
+  margin: 3% 2%;
+  margin-top: 0;
+  color: black;
+}
+
+.copyrights-icon:hover {
+  text-decoration: none;
+}
+
+@media (max-width: 1085px) {
+  .title-img {
+    transform: rotate(22deg);
+    right: 30%;
+  }
+}
+
+@media (max-width: 1085px) and (min-width: 992px) {
+  #title {
+    margin-right: -11%;
+  }
+}
+
+@media (max-width: 991px) {
+  .title-img {
+    transform: rotate(0);
+    position: static;
+    margin-top: 25px;
+  }
+
+  #title {
+    text-align: center;
+  }
+}
+
+@media (max-width: 529px) {
+  h1 {
+    font-size: 2.8rem;
+  }
+}
